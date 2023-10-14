@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity Practice-3</title>
+    <style>
+.box1{
+    background-color: bisque;
+    height: 50px;
+    padding: 10px;
+}
+.box2{
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 10px;
+}
+
+    </style>
+</head>
+<body>
+<div class="box1">
+    <p>A paragraph with the type selector</p>
+</div>    
+<div class="box2">
+    <p>A paragraph with the type ID selector</p>
+</div> 
+<div class="box1">
+    <p>A paragraph with the type selector</p>
+</div>  
+</body>
+</html>
